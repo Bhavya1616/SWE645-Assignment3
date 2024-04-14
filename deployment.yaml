@@ -17,5 +17,5 @@ spec:
       - name: webpagepod
         image: bhavya16/swe645assignment2:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         
