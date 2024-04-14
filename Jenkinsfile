@@ -9,7 +9,7 @@ pipeline {
     }
     
     stages {
-        stage('Building Docker image') {
+        stage('Building Docker Image') {
             steps {
                 script {
                     // Build Docker image with the tag 'latest'
