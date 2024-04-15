@@ -18,7 +18,7 @@ pipeline {
             }
         }
         
-        stage('Publishing Docker image to Docker Hub') {
+        stage('Publishing Docker Image to Docker Hub') {
             steps {
                 script {
                     // Push the Docker image to Docker Hub
