@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        registry = "bhavya16/my-spring-boot-app" // Update registry name to match your assignment
+        registry = "bhavya16/my-spring-boot-app-assign" // Update registry name to match your assignment
         registryCredential = 'dockerhub' // Assuming you have credentials configured in Jenkins
         dockerRegistryUrl = "https://index.docker.io/v1/" // Define the Docker registry URL explicitly
         dateTag = new Date().format("yyyyMMdd-HHmmss")
