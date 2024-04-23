@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: webpagepod
-        image: bhavya16/my-spring-boot-app:latest
+        image: bhavya16/my-spring-boot-app-assign:latest
         ports:
         - containerPort: 8080
         
